@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BD862C6235BDA5B00BD8DFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD862C5235BDA5B00BD8DFF /* AppDelegate.swift */; };
+		4BD862C8235BDA5B00BD8DFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD862C7235BDA5B00BD8DFF /* SceneDelegate.swift */; };
+		4BD862CA235BDA5B00BD8DFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD862C9235BDA5B00BD8DFF /* ViewController.swift */; };
+		4BD862CD235BDA5B00BD8DFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD862CB235BDA5B00BD8DFF /* Main.storyboard */; };
+		4BD862CF235BDA5E00BD8DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD862CE235BDA5E00BD8DFF /* Assets.xcassets */; };
+		4BD862D2235BDA5E00BD8DFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD862D0235BDA5E00BD8DFF /* LaunchScreen.storyboard */; };
+		4BD862DD235BDA5F00BD8DFF /* Blood_ChainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD862DC235BDA5F00BD8DFF /* Blood_ChainTests.swift */; };
+		4BD862E8235BDA5F00BD8DFF /* Blood_ChainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD862E7235BDA5F00BD8DFF /* Blood_ChainUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BD862D9235BDA5F00BD8DFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BD862BA235BDA5B00BD8DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BD862C1235BDA5B00BD8DFF;
+			remoteInfo = "Blood Chain";
+		};
+		4BD862E4235BDA5F00BD8DFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BD862BA235BDA5B00BD8DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BD862C1235BDA5B00BD8DFF;
+			remoteInfo = "Blood Chain";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BD862C2235BDA5B00BD8DFF /* Blood Chain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blood Chain.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD862C5235BDA5B00BD8DFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BD862C7235BDA5B00BD8DFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4BD862C9235BDA5B00BD8DFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BD862CC235BDA5B00BD8DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BD862CE235BDA5E00BD8DFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BD862D1235BDA5E00BD8DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BD862D3235BDA5E00BD8DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD862D8235BDA5F00BD8DFF /* Blood ChainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blood ChainTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD862DC235BDA5F00BD8DFF /* Blood_ChainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blood_ChainTests.swift; sourceTree = "<group>"; };
+		4BD862DE235BDA5F00BD8DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD862E3235BDA5F00BD8DFF /* Blood ChainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blood ChainUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD862E7235BDA5F00BD8DFF /* Blood_ChainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blood_ChainUITests.swift; sourceTree = "<group>"; };
+		4BD862E9235BDA5F00BD8DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BD862BF235BDA5B00BD8DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD862D5235BDA5F00BD8DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD862E0235BDA5F00BD8DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BD862B9235BDA5B00BD8DFF = {
+			isa = PBXGroup;
+			children = (
+				4BD862C4235BDA5B00BD8DFF /* Blood Chain */,
+				4BD862DB235BDA5F00BD8DFF /* Blood ChainTests */,
+				4BD862E6235BDA5F00BD8DFF /* Blood ChainUITests */,
+				4BD862C3235BDA5B00BD8DFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BD862C3235BDA5B00BD8DFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BD862C2235BDA5B00BD8DFF /* Blood Chain.app */,
+				4BD862D8235BDA5F00BD8DFF /* Blood ChainTests.xctest */,
+				4BD862E3235BDA5F00BD8DFF /* Blood ChainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BD862C4235BDA5B00BD8DFF /* Blood Chain */ = {
+			isa = PBXGroup;
+			children = (
+				4BD862C5235BDA5B00BD8DFF /* AppDelegate.swift */,
+				4BD862C7235BDA5B00BD8DFF /* SceneDelegate.swift */,
+				4BD862C9235BDA5B00BD8DFF /* ViewController.swift */,
+				4BD862CB235BDA5B00BD8DFF /* Main.storyboard */,
+				4BD862CE235BDA5E00BD8DFF /* Assets.xcassets */,
+				4BD862D0235BDA5E00BD8DFF /* LaunchScreen.storyboard */,
+				4BD862D3235BDA5E00BD8DFF /* Info.plist */,
+			);
+			path = "Blood Chain";
+			sourceTree = "<group>";
+		};
+		4BD862DB235BDA5F00BD8DFF /* Blood ChainTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BD862DC235BDA5F00BD8DFF /* Blood_ChainTests.swift */,
+				4BD862DE235BDA5F00BD8DFF /* Info.plist */,
+			);
+			path = "Blood ChainTests";
+			sourceTree = "<group>";
+		};
+		4BD862E6235BDA5F00BD8DFF /* Blood ChainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BD862E7235BDA5F00BD8DFF /* Blood_ChainUITests.swift */,
+				4BD862E9235BDA5F00BD8DFF /* Info.plist */,
+			);
+			path = "Blood ChainUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BD862C1235BDA5B00BD8DFF /* Blood Chain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BD862EC235BDA5F00BD8DFF /* Build configuration list for PBXNativeTarget "Blood Chain" */;
+			buildPhases = (
+				4BD862BE235BDA5B00BD8DFF /* Sources */,
+				4BD862BF235BDA5B00BD8DFF /* Frameworks */,
+				4BD862C0235BDA5B00BD8DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blood Chain";
+			productName = "Blood Chain";
+			productReference = 4BD862C2235BDA5B00BD8DFF /* Blood Chain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BD862D7235BDA5F00BD8DFF /* Blood ChainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BD862EF235BDA5F00BD8DFF /* Build configuration list for PBXNativeTarget "Blood ChainTests" */;
+			buildPhases = (
+				4BD862D4235BDA5F00BD8DFF /* Sources */,
+				4BD862D5235BDA5F00BD8DFF /* Frameworks */,
+				4BD862D6235BDA5F00BD8DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BD862DA235BDA5F00BD8DFF /* PBXTargetDependency */,
+			);
+			name = "Blood ChainTests";
+			productName = "Blood ChainTests";
+			productReference = 4BD862D8235BDA5F00BD8DFF /* Blood ChainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BD862E2235BDA5F00BD8DFF /* Blood ChainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BD862F2235BDA5F00BD8DFF /* Build configuration list for PBXNativeTarget "Blood ChainUITests" */;
+			buildPhases = (
+				4BD862DF235BDA5F00BD8DFF /* Sources */,
+				4BD862E0235BDA5F00BD8DFF /* Frameworks */,
+				4BD862E1235BDA5F00BD8DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BD862E5235BDA5F00BD8DFF /* PBXTargetDependency */,
+			);
+			name = "Blood ChainUITests";
+			productName = "Blood ChainUITests";
+			productReference = 4BD862E3235BDA5F00BD8DFF /* Blood ChainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BD862BA235BDA5B00BD8DFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Prabhu Saitu";
+				TargetAttributes = {
+					4BD862C1235BDA5B00BD8DFF = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					4BD862D7235BDA5F00BD8DFF = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 4BD862C1235BDA5B00BD8DFF;
+					};
+					4BD862E2235BDA5F00BD8DFF = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 4BD862C1235BDA5B00BD8DFF;
+					};
+				};
+			};
+			buildConfigurationList = 4BD862BD235BDA5B00BD8DFF /* Build configuration list for PBXProject "Blood Chain" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BD862B9235BDA5B00BD8DFF;
+			productRefGroup = 4BD862C3235BDA5B00BD8DFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BD862C1235BDA5B00BD8DFF /* Blood Chain */,
+				4BD862D7235BDA5F00BD8DFF /* Blood ChainTests */,
+				4BD862E2235BDA5F00BD8DFF /* Blood ChainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BD862C0235BDA5B00BD8DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD862D2235BDA5E00BD8DFF /* LaunchScreen.storyboard in Resources */,
+				4BD862CF235BDA5E00BD8DFF /* Assets.xcassets in Resources */,
+				4BD862CD235BDA5B00BD8DFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD862D6235BDA5F00BD8DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD862E1235BDA5F00BD8DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BD862BE235BDA5B00BD8DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD862CA235BDA5B00BD8DFF /* ViewController.swift in Sources */,
+				4BD862C6235BDA5B00BD8DFF /* AppDelegate.swift in Sources */,
+				4BD862C8235BDA5B00BD8DFF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD862D4235BDA5F00BD8DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD862DD235BDA5F00BD8DFF /* Blood_ChainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD862DF235BDA5F00BD8DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD862E8235BDA5F00BD8DFF /* Blood_ChainUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BD862DA235BDA5F00BD8DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BD862C1235BDA5B00BD8DFF /* Blood Chain */;
+			targetProxy = 4BD862D9235BDA5F00BD8DFF /* PBXContainerItemProxy */;
+		};
+		4BD862E5235BDA5F00BD8DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BD862C1235BDA5B00BD8DFF /* Blood Chain */;
+			targetProxy = 4BD862E4235BDA5F00BD8DFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BD862CB235BDA5B00BD8DFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BD862CC235BDA5B00BD8DFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BD862D0235BDA5E00BD8DFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BD862D1235BDA5E00BD8DFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BD862EA235BDA5F00BD8DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BD862EB235BDA5F00BD8DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BD862ED235BDA5F00BD8DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2Z48KXPHN;
+				INFOPLIST_FILE = "Blood Chain/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dryfish.Blood-Chain";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BD862EE235BDA5F00BD8DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2Z48KXPHN;
+				INFOPLIST_FILE = "Blood Chain/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dryfish.Blood-Chain";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BD862F0235BDA5F00BD8DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2Z48KXPHN;
+				INFOPLIST_FILE = "Blood ChainTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dryfish.Blood-ChainTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blood Chain.app/Blood Chain";
+			};
+			name = Debug;
+		};
+		4BD862F1235BDA5F00BD8DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2Z48KXPHN;
+				INFOPLIST_FILE = "Blood ChainTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dryfish.Blood-ChainTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blood Chain.app/Blood Chain";
+			};
+			name = Release;
+		};
+		4BD862F3235BDA5F00BD8DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2Z48KXPHN;
+				INFOPLIST_FILE = "Blood ChainUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dryfish.Blood-ChainUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blood Chain";
+			};
+			name = Debug;
+		};
+		4BD862F4235BDA5F00BD8DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2Z48KXPHN;
+				INFOPLIST_FILE = "Blood ChainUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dryfish.Blood-ChainUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blood Chain";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BD862BD235BDA5B00BD8DFF /* Build configuration list for PBXProject "Blood Chain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD862EA235BDA5F00BD8DFF /* Debug */,
+				4BD862EB235BDA5F00BD8DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BD862EC235BDA5F00BD8DFF /* Build configuration list for PBXNativeTarget "Blood Chain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD862ED235BDA5F00BD8DFF /* Debug */,
+				4BD862EE235BDA5F00BD8DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BD862EF235BDA5F00BD8DFF /* Build configuration list for PBXNativeTarget "Blood ChainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD862F0235BDA5F00BD8DFF /* Debug */,
+				4BD862F1235BDA5F00BD8DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BD862F2235BDA5F00BD8DFF /* Build configuration list for PBXNativeTarget "Blood ChainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD862F3235BDA5F00BD8DFF /* Debug */,
+				4BD862F4235BDA5F00BD8DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BD862BA235BDA5B00BD8DFF /* Project object */;
+}
